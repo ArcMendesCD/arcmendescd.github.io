@@ -1,0 +1,69 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.refeicao {
+    display: flex;
+    justify-content: center;
+}
+
+.refeicao-item {
+    display: inline-block;
+    margin: 22px;
+}
+
+.refeicao2 {
+    display: flex;
+    justify-content: center;
+}
+
+.refeicao3 {
+    display: flex;
+    justify-content: center;
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+}
+
+.total-elements {
+    display: inline-block;
+    margin: 22px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente os botões */
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0; /* Coloca os botões na parte inferior */
+    left: 0; /* Alinha os botões à esquerda */
+    right: 0; /* Alinha os botões à direita */
+    margin: 20px;
+}
+
+.botoes button {
+    background-color: #c1c1c1;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 10px;
+    /*flex: 0; */
+}
+
+.botoes button:hover {
+    background-color: #b95929;    
+}
+
+
+.botoes img {
+    width: 32px;
+    height: 32px;
+}

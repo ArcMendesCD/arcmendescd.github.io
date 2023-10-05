@@ -1,0 +1,109 @@
+.main {
+    text-align: center;
+    padding: 0px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.monitoramento{
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.nome-bixo{
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    place-items: start;
+    
+    /* resolver essa parte */
+}
+ /* 
+.batimentos{
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+   display: inline-block;
+}
+ */
+.botoes {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    margin: 20px;
+}
+.monitor{
+    text-align: right;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-left: 200px;
+    display: flex;
+    justify-content: right;
+
+}
+.botoes button {
+    background-color: #c1c1c1;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 10px;
+ 
+}
+
+.botoes button:hover {
+    background-color: #b95929;    
+}
+
+
+.botoes img {
+    width: 32px;
+    height: 32px;
+}
+
+.imagem{
+    align-content: left;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-left: 10px;
+    display: flex;
+    padding-top: 50px;
+
+}
+
+.historicoCardiaco {
+    border: 1px solid rgba(0, 163, 255, 0.7);
+    border-radius: 15px;
+	background-color:#EDFBFF;
+	display:inline-block;
+	color:  black;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 30px;
+    text-align: center;
+    max-width: 400px;
+    margin: 100px;
+    margin-top: 40px;
+	text-decoration:none;
+}
+.historicoCardiaco:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+
