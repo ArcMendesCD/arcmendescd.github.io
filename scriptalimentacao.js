@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     const alimentacaoNav = new Navegador("botaoAlimentacao", "paginaalimentacao.html");
-    const principalNav = new Navegador("botaoPrincipal", "paginaprincipal.html.html");
+    const principalNav = new Navegador("botaoPrincipal", "paginaprincipal.html");
     const saudeNav = new Navegador("botaoSaude", "paginasaude.html");
 
     document.getElementById("botaoAlimentacao").addEventListener("click", function() {
