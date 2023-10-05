@@ -49,7 +49,7 @@ document.getElementById("editarCor").addEventListener("click", function() {
 
 // Instanciando objetos para navegação
 const alimentacaoNav = new Navegador("botaoAlimentacao", "paginaalimentacao.html");
-const principalNav = new Navegador("botaoPrincipal", "index.html");
+const principalNav = new Navegador("botaoPrincipal", "paginaprincipal.html");
 const saudeNav = new Navegador("botaoSaude", "paginasaude.html");
 
 // Adicionando event listeners para navegação
